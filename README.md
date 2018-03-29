@@ -5,7 +5,7 @@
 ## Getting started
 
 1. Fork and clone this repo
-2. cd into the repo
+2. cd into the new directory you made
 3. `npm install`
 4. Create a database called `meal-time` on your machine by running `createdb meal-time` in your command line (it doesn't matter what directory you're in when you run this)
 5. I've created a seed file that populates your database with dummy data. You still don't have to worry about how to create a seed file. In order to populate your database with this seed file, run `npm run seed`. Only do this after you've created your db in step 4. Until you do this, you won't have any data to work with.
