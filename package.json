@@ -4,7 +4,8 @@
   "description": "review time",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon main.js",
+    "start:dev": "webpack -w & nodemon --watch server -e js,html main",
+    "start": "node main",
     "seed": "node scripts/seed.js"
   },
   "keywords": [

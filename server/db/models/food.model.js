@@ -10,6 +10,12 @@ const Food = db.define('foods', {
   photo: {
     type: Sequelize.STRING,
     defaultValue: 'https://i.imgur.com/JncGdNF.jpg'
+  },
+  price: {
+  	type: Sequelize.INTEGER
+  },
+  description: {
+    type: Sequelize.TEXT
   }
 
 
