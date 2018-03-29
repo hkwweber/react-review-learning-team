@@ -28,3 +28,11 @@ export default class SingleFood extends Component {
 		);
 	}
 }
+
+
+// {
+//     name: "Waffles",
+//     photo: 'https://i.imgur.com/JncGdNF.jpg',
+//     price: 9,
+//     description: 'waffle tiiiiiiiiiiiiiime'
+//   },
