@@ -1,16 +1,10 @@
-"use strict";
-import React, { Component } from "react";
-import {
-	HashRouter as Router,
-	Route,
-	Switch,
-	Redirect
-} from "react-router-dom";
+'use strict';
+import React, { Component } from 'react';
 
-export default class Order extends React.Component {
+export default class Order extends Component {
 	constructor() {
 		super();
-		this.state = { name: "", email: "" };
+		this.state = { name: '', email: '' };
 		this.handleChange = this.handleChange.bind(this);
 		this.onSubmit = this.onSubmit.bind(this);
 	}

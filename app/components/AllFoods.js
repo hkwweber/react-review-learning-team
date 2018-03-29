@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Belly from "./Belly";
 import axios from "axios";
 
-export default class FoodList extends Component {
+export default class AllFoods extends Component {
 	constructor() {
 		super();
 		this.state = { foods: [] };

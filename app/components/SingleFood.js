@@ -1,13 +1,6 @@
 "use strict";
 import React, { Component } from "react";
-import {
-	HashRouter as Router,
-	Route,
-	Switch,
-	Redirect
-} from "react-router-dom";
 import axios from "axios";
-import Belly from "./Belly";
 
 export default class SingleFood extends Component {
 	constructor() {
