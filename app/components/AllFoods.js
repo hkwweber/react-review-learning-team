@@ -47,17 +47,3 @@ export default class AllFoods extends Component {
 		);
 	}
 }
-
-
-// {
-//     name: "Waffles",
-//     photo: 'https://i.imgur.com/JncGdNF.jpg',
-//     price: 9,
-//     description: 'waffle tiiiiiiiiiiiiiime'
-//   },
-//   {
-//     name: "Eggs Benedict",
-//     photo: "https://i.imgur.com/kI1980g.jpg",
-//     price: 15,
-//     description: 'fancy or gross?'
-//   }

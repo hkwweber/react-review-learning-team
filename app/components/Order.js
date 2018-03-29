@@ -16,11 +16,11 @@ export default class Order extends Component {
 	}
 	onSubmit(event) {
 		event.preventDefault();
+		//the only thing this function does is console.log. in the real world you'd probably have submit functionality that hits your backend to perform a CRUD operation (like through axios, for example)
 		console.log('SUBMITTING: ', this.state);
 	}
 
 	render() {
-		console.log("STATE!", this.state);
 		const food = this.props.food;
 		return (
 			<div>

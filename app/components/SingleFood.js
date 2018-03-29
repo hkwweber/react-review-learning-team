@@ -14,6 +14,7 @@ export default class SingleFood extends Component {
 			.get(`api/foods/${foodId}`)
 			.then(res => res.data)
 			.then(selectedFood => this.setState({ selectedFood }));
+			.catch(error => console.log('error!!', error))
 	}
 
 	render() {
@@ -28,11 +29,3 @@ export default class SingleFood extends Component {
 		);
 	}
 }
-
-
-// {
-//     name: "Waffles",
-//     photo: 'https://i.imgur.com/JncGdNF.jpg',
-//     price: 9,
-//     description: 'waffle tiiiiiiiiiiiiiime'
-//   },
